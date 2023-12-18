@@ -1,0 +1,42 @@
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
+.todo-items{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 20px;
+padding: 16px 0px;
+border-radius: 30px;
+background-color:#e9e6e3d7 ;
+margin-bottom: 12px;
+margin-left: 25px;
+margin-right: 20px;
+}
+
+.todo-items-container{
+  display: flex;
+}
+.todo-item-text{
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  color: #404040;
+}
+.todo-items-crossicon{
+  cursor: pointer;
+  padding: 16px;
+  border-radius: 100%;
+}
+.todo-items-crossicon:hover{
+  background-color: #e5c087da;
+
+  transition:background-color 0.5s ease-in-out;
+}
+.line-through{
+  text-decoration: line-through solid #be0a0a 2px;
+}
+img{
+  margin: 4px;
+}
